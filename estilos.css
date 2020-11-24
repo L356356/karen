@@ -1,0 +1,150 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/8516.jpg);
+    background-attachment: fixed;
+    margin: auto;
+}
+
+section div{
+color: thistle;
+    
+margin: auto;
+width: 750px;
+height: 200px;
+padding: 10px 100px 10px 10px;
+
+
+/*overflow-y: scroll;*/
+}
+
+.primertexto{
+    
+    
+    filter: blur(0.4px);
+    filter:grayscale(0.8);
+    background-attachment: fixed;
+    
+    padding: 10px 100px 10px 10px;
+    background-image: url(https://fondosmil.com/fondo/8516.jpg);
+    background-size: auto;
+
+    
+    
+   
+
+}
+.segundotexto{
+
+    background: fixed;
+    padding: 10px 100px 10px 10px;
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-universo-espacial-verde_94937-98.jpg);
+    background-size: auto;
+    text-shadow: #A28FEF 2px 2px 12px;
+    box-shadow: ;
+    text-shadow:#80e2e9 2px 2px 12px;
+
+}
+.caja{
+            width: 400px;
+			height: 400px;
+			margin: auto;
+			border: solid 2px #D7D7D7;
+			margin-top: 100px;
+			background-color: #000000;
+			background-image: -webkit-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+			background-image: -moz-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+			background-image: -ms-linear-gradient(45deg, #D125F0, #86B5EF, #5449E9);
+
+
+}
+#uno{
+    color: seashell;
+    
+    background-image: url(https://www.consejeriaempresarial.com/wp-content/uploads/2015/09/Reactiva-y-entrena-a-tu-cerebro-con-la-neuroplasticidad.jpg);
+    
+    background-size: auto;
+}
+#dos{
+
+    color: black;
+background: royalblue;
+border:solid 2px antiquewhite;
+
+
+
+border-radius: 20px 20px 20px 20px;
+box-shadow: black 5px 5px 50px 2px inset;
+
+    color:#B7A8F4;
+    text-shadow: #B7A8F4 2px 2px 12px;
+    
+
+    
+
+
+border-radius: 32px 32px 32px 32px;
+}
+#media{
+    filter: blur(1px);
+
+}
+
+#imagen {
+    width: 100px;
+    
+    
+    padding: 1px 1px 1px 1px;
+    
+}
+#imagen img{
+    margin: 10px 50px 10px 55px;
+    display:block;
+  
+   width: 100px;
+}
+#imagen img:hover{
+    transform: scale(2.5,2.5);
+    transition: 2s;
+    
+}
+.peliculas{
+    display: flex;
+    margin:auto;
+    
+    width: 750px;
+    height: 400px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.contenedor{
+    margin: auto;
+    background: url(https://i.blogs.es/a43a49/cosmos/1366_2000.jpg);
+    background-size: cover;
+    
+    
+    margin: auto;
+}
+
+.vermas {
+    
+    color: red;
+    text-align:center;
+    margin-top: 100px;
+    opacity: 0;
+    overflow: hidden; 
+    transition: all 1s ease 0s;
+    /*height: 0px;*/
+    
+   
+    
+}
+.vermas p{
+    background:white;
+    color: black;
+}
+.vermas h1{
+    background: black;
+}
+.contenedor:hover .vermas {
+			opacity: 1;
+			/*height: 130px;imagen pequeña y ñuego grande*/
+		}
